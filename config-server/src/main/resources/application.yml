@@ -1,0 +1,9 @@
+server:
+  port: 8888
+
+logging:
+  level:
+    ROOT: INFO
+    org.spring.framework.cloud.config: DEBUG
+
+#test: http://localhost:8888/config-client/twitter_to_kafka

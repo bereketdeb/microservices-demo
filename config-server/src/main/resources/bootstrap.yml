@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bereketdeb/spring-cloud-config-server-repository.git
+          default-label: main
+          username: bereketdeb@gmail.com
+          password: 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
+          clone-on-start: true
+    fail-fast: true
+  security:
+    user:
+      name: spring_cloud_user
+      password: springCloud_Pwd!
