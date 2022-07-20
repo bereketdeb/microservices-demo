@@ -8,10 +8,10 @@ spring:
           uri: https://github.com/bereketdeb/spring-cloud-config-server-repository.git
           default-label: main
           username: bereketdeb@gmail.com
-          password: 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
+          password: ENC(Sj5xVgI9NEQBbhtRA0ghr908GtZrMNwhI+Fmad8Pb+ehPHy3G0RbMVKkHpmrYTWcPIhZBwMaYox4zzV4fWKNc4MjVIkq3tvC/IXK760dCxc=)
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: ENC(BYazDt2zl3VGP+HIMBUKjsFAFFTMAQoPlFs1hJ37BaAJY8vKtzDnrwj61VmkFkMUtfGyX6cjPQF1I08TG93z8A==)
