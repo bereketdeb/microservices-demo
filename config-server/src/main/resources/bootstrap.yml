@@ -8,10 +8,14 @@ spring:
           uri: https://github.com/bereketdeb/spring-cloud-config-server-repository.git
           default-label: main
           username: bereketdeb@gmail.com
-          password: ENC(Sj5xVgI9NEQBbhtRA0ghr908GtZrMNwhI+Fmad8Pb+ehPHy3G0RbMVKkHpmrYTWcPIhZBwMaYox4zzV4fWKNc4MjVIkq3tvC/IXK760dCxc=)
+          #password: '{cipher}30bafe0f0236fa0e9b67ddb2841c76fca71ce1645b4116bd04a7b9035dd397905f482de9a4157396e2cb519d749b1389'
+          #password: ENC(Sj5xVgI9NEQBbhtRA0ghr908GtZrMNwhI+Fmad8Pb+ehPHy3G0RbMVKkHpmrYTWcPIhZBwMaYox4zzV4fWKNc4MjVIkq3tvC/IXK760dCxc=)
+          password: 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
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: ENC(BYazDt2zl3VGP+HIMBUKjsFAFFTMAQoPlFs1hJ37BaAJY8vKtzDnrwj61VmkFkMUtfGyX6cjPQF1I08TG93z8A==)
+      #password: ENC(BYazDt2zl3VGP+HIMBUKjsFAFFTMAQoPlFs1hJ37BaAJY8vKtzDnrwj61VmkFkMUtfGyX6cjPQF1I08TG93z8A==)
+      password: '{cipher}e1cd5d81634b5e1966b8a136de5048497be2a39d0456967e752c517171a2dd3d33e547fb69f73ee665d921101f90f105'
+
